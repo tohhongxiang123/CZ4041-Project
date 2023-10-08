@@ -1,6 +1,6 @@
 import numpy as np
 import torch
-import torchvision.transforms.v2 as T
+import torchvision.transforms as T
 
 # augmentations
 
@@ -13,7 +13,7 @@ train_transforms = T.Compose(
         T.RandomVerticalFlip(),
         T.RandomAffine(15, translate=(0.1, 0.1), scale=(0.9, 1.1)),
         T.ColorJitter(brightness=0.1, contrast=0.1, saturation=0.1),
-        T.ToDtype(torch.float32, scale=True),
+        T.ConvertImageDtype(torch.float),
         T.Normalize(mean=IMAGENET_MEAN, std=IMAGENET_STD),
     ]
 )

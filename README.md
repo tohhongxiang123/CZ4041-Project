@@ -33,3 +33,7 @@ data
 # Resources
 
 - https://towardsdatascience.com/custom-dataset-in-pytorch-part-1-images-2df3152895
+- [Discussion](https://www.kaggle.com/competitions/petfinder-pawpularity-score/discussion/286250)
+- [Pawpularity Starter Package](https://www.kaggle.com/c/petfinder-pawpularity-score/discussion/274026)
+- [Single SWIN Transformer with Custom Head](https://www.kaggle.com/competitions/petfinder-pawpularity-score/discussion/300942)
+- [9th place - SwinB224 DLDL NN+SVR+CAT](https://www.kaggle.com/code/shigemitsutomizawa/9th-place-swinb224-dldl-nn-svr-cat)
