@@ -10,7 +10,7 @@ Predict the popularity of shelter pet photos
 python -m venv venv
 ./venv/Scripts/activate
 
-pip install matplotlib numpy pandas opencv-python tqdm timm pytorch-lightning scikit-learn
+pip install matplotlib numpy pandas opencv-python tqdm timm pytorch-lightning scikit-learn ipywidgets
 ```
 
 Then we will need to install pytorch. Check your specific command [here](https://pytorch.org/get-started/locally/)
